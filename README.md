@@ -36,6 +36,7 @@ The application uses in-memory data storage and follows RESTful API principles.
         RESTful API design
 
 --> Project Structure
+
         src/
         ├── app.js
         ├── server.js
@@ -50,6 +51,7 @@ The application uses in-memory data storage and follows RESTful API principles.
         │   └── email.js
 
 --> Installation & Setup
+
         1️. Clone the Repository
         git clone 
         cd Event_management
@@ -66,6 +68,7 @@ The application uses in-memory data storage and follows RESTful API principles.
         http://localhost:3000
 
 -->  API Endpoints
+
     1. Authentication
         Register User
 
@@ -168,7 +171,7 @@ The application uses in-memory data storage and follows RESTful API principles.
 
         Email service is mocked
 
---> Author:Sumayya, Full-Stack Developer
+--> Author: Sumayya, Full-Stack Developer
 
 --> Submission Notes
 
