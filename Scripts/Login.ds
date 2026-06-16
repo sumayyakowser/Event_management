@@ -101,10 +101,8 @@
         <accessor type='JQuery' value='byJQuery(&apos;#submitButton&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='navigateTo' value='"https://login.microsoftonline.com/common/SAS/ProcessAuth"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='06f7fa4a-666f-4cb6-aee1-bd7f76a65dd8' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+    <step action='serviceSuite' value='"{ds}/get_otp 1.js"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a8f2f590-6b73-4742-bf16-f1174e272239' uiType='base'>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b17c2fa1-1e35-4682-a237-a1b256c0fe5b' uiType='base'>
       <dialect type='sahi'>
