@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+  <testcase name='' description='script generated from Web Designer' author='sravanthi.matam@external.stellantis.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://vinengraving-dev.intra.stellantis.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b6a25d25-d9bd-4edb-b4a1-ecc1fe7eb38d' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='setValue' value='"sravanthi.matam@external.stellantis.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ce817914-2a1d-4e06-99f5-e5aae0e37356' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="i0116"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='emailbox("ext-input ext-text-box form-control input ltr_override text-box")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="loginfmt"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='emailbox("i0116")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='emailbox("loginfmt")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control ltr_override input ext-input text-box ext-text-box"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;i0116&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;i0116&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='emailbox({&apos;type&apos;:&apos;email&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="form-group col-md-24"] &gt; div[class="placeholderContainer"] &gt; input[class="form-control ltr_override input ext-input text-box ext-text-box"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#i0116&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="loginfmt"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='284cec90-d2fb-41f4-b725-48eca5c4c238' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="idSIButton9"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("button button_primary ext-button ext-primary high-contrast-overrides primary win-button")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("idSIButton9")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Next")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/div/div[4]/div/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;idSIButton9&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;idSIButton9&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-xs-24 no-padding-left-right button-container button-field-container ext-button-field-container"] &gt; div[class="inline-block button-item ext-button-item"] &gt; input[class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#idSIButton9&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Next"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"Ved&amp;April2026"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8afb0a3a-e502-4719-ab55-6232350f9960' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="i0118"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='password("ext-input ext-show-reveal-password ext-text-box form-control input show-reveal-password text-box")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="passwd"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='password("i0118")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("passwd")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control input ext-input text-box ext-text-box show-reveal-password ext-show-reveal-password"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div/div[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;i0118&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;i0118&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;tabindex&apos;:&apos;0&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="form-group col-md-24"] &gt; div[class="placeholderContainer"] &gt; input[class="form-control input ext-input text-box ext-text-box show-reveal-password ext-show-reveal-password"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#i0118&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="passwd"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='158f38b7-f028-4331-8059-84b40a266ebe' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="idSIButton9"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("button button_primary ext-button ext-primary high-contrast-overrides primary win-button")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("idSIButton9")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Sign in")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[5]/div/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;idSIButton9&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;idSIButton9&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-xs-24 no-padding-left-right button-container button-field-container ext-button-field-container"] &gt; div[class="inline-block button-item ext-button-item"] &gt; input[class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#idSIButton9&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Sign in"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a74114c7-af98-4de9-a9d5-9ad729c3cc71' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="signInAnotherWay"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='Id' value='link("signInAnotherWay")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("#")' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='link(["I can&apos;t use my Microsoft Authentica"])' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[6]/div/div[2]/div/div/div/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;signInAnotherWay&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(div("idDiv_SAOTCS_HavingTrouble")))' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(div({&apos;id&apos;:&apos;idDiv_SAOTCS_HavingTrouble&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//a[@id=&apos;signInAnotherWay&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='link({&apos;aria-describedby&apos;:&apos;idDiv_SAOTCAS_Title idDiv_SAOTCAS_Description&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#signInAnotherWay&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="#"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9f4e45f5-0f98-44be-84c6-f0d94e889e64' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Text' value='div("Use a verification code[4]").xy(0.35, 0.51 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Use a verification code"]&apos;).xy(0.35, 0.51 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div&apos;).xy(0.35, 0.51 )' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='div(13, _in(div("idDiv_SAOTCS_Proofs"))).xy(0.35, 0.51 )' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='div(13, _in(div({&apos;id&apos;:&apos;idDiv_SAOTCS_Proofs&apos;}))).xy(0.35, 0.51 )' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;idDiv_SAOTCS_Proofs&apos;]/div[2]/div/div/div[2]/div").xy(0.35, 0.51 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='serviceSuite' value='"{ds}/get_otp.js"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e2d4eeaa-1f10-490e-9d35-52d05b88e777' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="idTxtBx_SAOTCC_OTC"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='telephonebox("form-control")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="otc"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='telephonebox("idTxtBx_SAOTCC_OTC")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='telephonebox("otc")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div[3]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;idTxtBx_SAOTCC_OTC&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='telephonebox(0, _in(div("idDiv_SAOTCC_OTC")))' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='telephonebox(0, _in(div({&apos;id&apos;:&apos;idDiv_SAOTCC_OTC&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;idTxtBx_SAOTCC_OTC&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='telephonebox({&apos;type&apos;:&apos;tel&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="text-block-body"] &gt; div[class="form-group"] &gt; div[class="textbox form-group"] &gt; div[class="placeholderContainer"] &gt; input[class="form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#idTxtBx_SAOTCC_OTC&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="otc"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='retrieve' value='"OTPVAL"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aed12024-2756-443f-9d32-13538df6af86' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='passOTP' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='passOTP' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8703d04e-d027-49cd-a4f4-cd12bd35434c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="idTxtBx_SAOTCC_OTC"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='telephonebox("form-control")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="otc"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='telephonebox("idTxtBx_SAOTCC_OTC")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='telephonebox("otc")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div[3]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;idTxtBx_SAOTCC_OTC&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='telephonebox(0, _in(div("idDiv_SAOTCC_OTC")))' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='telephonebox(0, _in(div({&apos;id&apos;:&apos;idDiv_SAOTCC_OTC&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;idTxtBx_SAOTCC_OTC&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='telephonebox({&apos;type&apos;:&apos;tel&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="text-block-body"] &gt; div[class="form-group"] &gt; div[class="textbox form-group"] &gt; div[class="placeholderContainer"] &gt; input[class="form-control"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#idTxtBx_SAOTCC_OTC&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="otc"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f7085d1f-9406-4bba-a23d-e2efe31ca21a' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="idSubmit_SAOTCC_Continue"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("button button_primary ext-button ext-primary high-contrast-overrides primary win-button")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("idSubmit_SAOTCC_Continue")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Verify")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[6]/div/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;idSubmit_SAOTCC_Continue&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;idSubmit_SAOTCC_Continue&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-xs-24 no-padding-left-right button-container no-margin-bottom button-field-container ext-button-field-container"] &gt; div[class="inline-block button-item ext-button-item"] &gt; input[class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#idSubmit_SAOTCC_Continue&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Verify"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c95dfaa-9006-4c08-9198-800e3028d43a' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="idSIButton9"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("button button_primary ext-button ext-primary high-contrast-overrides primary win-button")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("idSIButton9")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Yes")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;idSIButton9&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;idSIButton9&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-xs-24 no-padding-left-right button-container button-field-container ext-button-field-container"] &gt; div[class="inline-block button-item ext-button-item"] &gt; input[class="win-button button_primary high-contrast-overrides button ext-button primary ext-primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#idSIButton9&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Yes"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='928f93de-8426-46c1-b80c-682ae1fea8bf' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='button(["NA"])' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='store' value='getText(span("data-slot==badge",_in(button(["NA"]))))' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3baf511f-f34d-4441-9619-58456f39ad21' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='NACOUNT' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='store' value='_eval("ds$(&apos;div[data-slot=\"card\"]&apos;).length")' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b0a3e58e-7d9d-4f8d-a906-3bcbaf15a6c2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='NACOUNTAssert' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='NACOUNT' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='assertEqual' value='NACOUNTAssert' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7146ae1d-c0b9-435c-9210-fb3dcf46ed2e' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='parseInt(NACOUNT)' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='NACOUNT' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='14dad7e1-e53f-4ba4-b0c9-2cbe8ef15e42' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+  </testcase>
