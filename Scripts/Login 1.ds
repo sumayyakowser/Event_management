@@ -41,7 +41,10 @@
     </step>
     <step action='setValue' value='"T0222VQ"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8afb0a3a-e502-4719-ab55-6232350f9960' uiType='base'>
       <dialect type='sahi'>
-        <accessor type='XPathId' value='byXPath(&apos;//*[@id="i0118"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath(&apos;//*[@id="userNameInput"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath(&apos;//*[@id="userNameInput""]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath(&apos;//*[@id="user"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="i0118"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("ext-input ext-show-reveal-password ext-text-box form-control input show-reveal-password text-box")' selected='false' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="passwd"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='Id' value='password("i0118")' selected='false' fallback='true'></accessor>
